@@ -398,7 +398,7 @@ Priorities: High (must have) - `* * *`, Medium (nice to have) - `* *`, Low (unli
 4.  Codebase should be _modular_ and easy to update, so that future developers can easily add new features or fix bugs.
 5.  App should have the ability to gracefully handle a data file that is corrupted without crashing, and inform the user of the issue.
 6.  System should _gracefully recover_ from minor errors (e.g., incorrect or incomplete input) by either prompting the user to correct the issue, or using default values where applicable.
-7.  System should have well-written and accessible user and developer documentation to support both end-users and future developers in using and maintaining the application.
+7.  System should have well-written and accessible user and developer documentation to support end-users and future developers in using and maintaining the application.
 8.  System should have a comprehensive suite of automated tests to ensure that new changes do not break existing functionality.
 9.  System should implement a _data retention policy_, ensuring that data and records older than a certain period are archived or deleted to optimize performance and comply with legal requirements.
 10. System should have easy-to-use backup and restore functionality, enabling users to create backups of their data, and restore their data in the event of data loss or corruption.
