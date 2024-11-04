@@ -144,8 +144,8 @@ Format: `deletes n/STUDENT_NAME sn/STUDENT_NUMBER`
 * The student number **must be in the following format** A1234567B …​
 
 Examples:
-* `list` followed by `delete 2` deletes the 2nd person in the address book.
-* `find Betsy` followed by `delete 1` deletes the 1st person in the results of the `find` command.
+* `deletes n/John Doe` deletes the student named `John Doe` from the address book.
+* `deletes n/Marion sn/A1234567B` deletes the student named `Marion` with student number `A1234567B` from the address book.
 
 ### Clearing all entries : `clear`
 
